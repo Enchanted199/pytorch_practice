@@ -23,3 +23,4 @@ TEXT.build_vocab(train_data, max_size=25000, vectors="glove.6B.100d", unk_init=t
 LABEL.build_vocab(train_data)
 print(f"Unique tokens in TEXT vocabulary: {len(TEXT.vocab)}")
 print(f"Unique tokens in LABEL vocabulary: {len(LABEL.vocab)}")
+#try ad home
